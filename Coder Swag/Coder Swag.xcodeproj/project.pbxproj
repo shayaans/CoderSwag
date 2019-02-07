@@ -13,6 +13,8 @@
 		662283F6220BFAC6007687CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662283F5220BFAC6007687CA /* Assets.xcassets */; };
 		662283F9220BFAC6007687CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662283F7220BFAC6007687CA /* LaunchScreen.storyboard */; };
 		66228408220BFB06007687CA /* Coder_SwagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66228407220BFB06007687CA /* Coder_SwagTests.swift */; };
+		66228415220C0023007687CA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66228414220C0023007687CA /* CategoryCell.swift */; };
+		66228416220C0023007687CA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66228414220C0023007687CA /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		66228405220BFB06007687CA /* Coder SwagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coder SwagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66228407220BFB06007687CA /* Coder_SwagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coder_SwagTests.swift; sourceTree = "<group>"; };
 		66228409220BFB06007687CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66228414220C0023007687CA /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		662283ED220BFAC4007687CA /* Coder Swag */ = {
 			isa = PBXGroup;
 			children = (
+				66228410220BFB4F007687CA /* Controller */,
+				6622840F220BFB44007687CA /* Model */,
 				66228400220BFAF0007687CA /* View */,
 				662283EE220BFAC4007687CA /* AppDelegate.swift */,
 				662283F2220BFAC4007687CA /* Main.storyboard */,
@@ -90,7 +95,7 @@
 		66228400220BFAF0007687CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				662283F0220BFAC4007687CA /* CategoriesVC.swift */,
+				66228414220C0023007687CA /* CategoryCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +107,21 @@
 				66228409220BFB06007687CA /* Info.plist */,
 			);
 			path = "Coder SwagTests";
+			sourceTree = "<group>";
+		};
+		6622840F220BFB44007687CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66228410220BFB4F007687CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				662283F0220BFAC4007687CA /* CategoriesVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +227,7 @@
 			files = (
 				662283F1220BFAC4007687CA /* CategoriesVC.swift in Sources */,
 				662283EF220BFAC4007687CA /* AppDelegate.swift in Sources */,
+				66228415220C0023007687CA /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66228408220BFB06007687CA /* Coder_SwagTests.swift in Sources */,
+				66228416220C0023007687CA /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
